@@ -41,6 +41,9 @@
   }
   .containar-left {
     width: 100%;
+    height: auto;
+    margin-bottom: 25px;
+    background: white;
   }
   .round {
     width: 90%;
