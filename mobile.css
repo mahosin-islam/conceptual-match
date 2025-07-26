@@ -1,0 +1,72 @@
+@media screen and (max-width: 660px) {
+  .bannar {
+    width: 100%;
+    flex-direction: column;
+  }
+  .bannar-text {
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    height: auto;
+  }
+  .bannar-text h1 {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 40px;
+  }
+  .bannar-text p {
+    font-size: 18px;
+    max-width: 0;
+    line-height: auto;
+    color: white;
+    max-width: 95%;
+  }
+  .bannar-text .btn {
+    margin-top: 20px;
+  }
+  .bannar-img img {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .bannar-img {
+    width: 45%;
+    height: auto;
+    transition: 0.8s;
+  }
+  /* containar-area */
+  .containar {
+    width: 100%;
+    flex-direction: column;
+  }
+  .containar-left {
+    width: 100%;
+  }
+  .round {
+    width: 90%;
+  }
+  .containar-right {
+    width: 100%;
+    grid-template-columns: 1fr;
+  }
+  .card {
+    width: 100%;
+  }
+  /* footer-area */
+  .footer {
+    width: 100%;
+    height: auto;
+  }
+  .nav-link {
+    width: 100%;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 30px auto;
+  }
+  .nav-link li {
+    width: 100%;
+    margin-bottom: 8px;
+  }
+  .nav-link li a {
+    font-size: 23px;
+  }
+}

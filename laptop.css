@@ -1,0 +1,38 @@
+@media screen and (max-width: 960px) and (min-width: 660px) {
+  .bannar {
+    width: 100%;
+  }
+  .bannar-text {
+    height: auto;
+  }
+  .containar {
+    width: 100%;
+    flex-direction: column;
+  }
+  .containar-left {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+    background: #d0d0d3;
+  }
+  .containar-right {
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .footer {
+    width: 100%;
+    height: auto;
+  }
+  .nav-link {
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 20px;
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+  .cend {
+    grid-column: 2 / span;
+    margin-left: 200px;
+  }
+}
